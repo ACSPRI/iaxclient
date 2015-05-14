@@ -226,8 +226,8 @@ int main(int argc, char **argv)
 //	iaxc_set_formats(IAXC_FORMAT_SPEEX,IAXC_FORMAT_ULAW|IAXC_FORMAT_GSM|IAXC_FORMAT_SPEEX);
 //	iaxc_set_formats(IAXC_FORMAT_SPEEX,IAXC_FORMAT_SPEEX);
 //	iaxc_set_formats(IAXC_FORMAT_GSM,IAXC_FORMAT_GSM);
-	iaxc_set_formats(IAXC_FORMAT_ULAW,IAXC_FORMAT_ULAW);
-	//iaxc_set_formats(IAXC_FORMAT_ULAW,IAXC_FORMAT_ILBC|IAXC_FORMAT_ULAW|IAXC_FORMAT_GSM|IAXC_FORMAT_SPEEX);
+//	iaxc_set_formats(IAXC_FORMAT_ULAW,IAXC_FORMAT_ULAW);
+	iaxc_set_formats(IAXC_FORMAT_ULAW,IAXC_FORMAT_ULAW|IAXC_FORMAT_GSM|IAXC_FORMAT_SPEEX);
 	iaxc_set_silence_threshold(silence_threshold);
 
 	list_devices();

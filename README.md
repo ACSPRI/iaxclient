@@ -20,9 +20,13 @@ Install al prerequisites before attempting to compile.
 Pulseaudio development headers are additionally required.
 Building outside of the main source tree is encouraged.
 <pre>
+sudo apt-get install build-essential cmake libpulse-dev
 mkdir build/
 cd build/
 cmake ../lib
+make
+cd ..
+cd simpleclient
 make
 </pre>
 
