@@ -25,12 +25,21 @@ mkdir build/
 cd build/
 cmake ../lib
 make
+</pre>
+
+Link with your project using -liaxclient_lib.
+
+Building the client
+===================
+The client included here is the original "simpleclient"
+that appeared in the original iaxclient package. It can
+be used as a command line, auto answering IAX client.
+
+<pre>
 cd ..
 cd simpleclient
 make
 </pre>
-
-Link with your project using -liaxclient_lib.
 
 License information
 ===================
